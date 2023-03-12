@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
     border: 0;
     margin: 0;
@@ -23,7 +23,7 @@
     --color-grey: #e1e1e1;
     --color-link: #287565;
     --color-modal: #0000006e;
-} */
+}
 
 img, video {
     width: 100%;
