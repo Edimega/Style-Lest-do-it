@@ -306,11 +306,31 @@ img, video {
 
 /* Tamaños Minimos */
 
+.min-w-auto {min-width: auto;}
+.min-w-10 {min-width: 10px;}
+.min-w-15 {min-width: 15px;}
+.min-w-20 {min-width: 20px;}
+.min-w-30 {min-width: 30px;}
+.min-w-40 {min-width: 40px;}
+.min-w-50 {min-width: 50px;}
+.min-w-60 {min-width: 60px;}
+.min-w-70 {min-width: 70px;}
+.min-w-80 {min-width: 80px;}
+.min-w-90 {min-width: 90px;}
 .min-w-100 {min-width: 100px;}
+.min-w-150 {min-width: 150px;}
+.min-w-200 {min-width: 200px;}
 .min-w-250 {min-width: 250px;}
+.min-w-300 {min-width: 300px;}
+.min-w-400 {min-width: 400px;}
+.min-w-500 {min-width: 500px;}
+.min-w-600 {min-width: 600px;}
+.min-w-700 {min-width: 700px;}
+.min-w-800 {min-width: 800px;}
 
 .min-h-10 {min-height: 10px;}
 .min-h-15 {min-height: 15px;}
+.min-h-400 {min-height: 400px;}
 
 .min-vh-100 {min-height: 100vh;}
 
@@ -581,6 +601,16 @@ img, video {
 .overflow-auto {overflow: auto;}
 .overflow-hidden {overflow: hidden;}
 
+/*Opacity*/
+
+.opacity-0 {opacity: 0;}
+.opacity-25 {opacity: 0.25;}
+.opacity-50 {opacity: 0.50;}
+.opacity-75 {opacity: 0.75;}
+.opacity-100 {opacity: 1;}
+
+
+/*Fin Opacity*/
 ico-primary{
     fill: var(--color-primary);
 }
