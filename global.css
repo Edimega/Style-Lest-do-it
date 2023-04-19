@@ -505,6 +505,8 @@ img, video {
 .jc-sa {justify-content: space-around}
 .jc-center {justify-content: center;}
 .jc-fe {justify-content: flex-end;}
+.jc-fs {justify-content: flex-start;}
+
 
 .ai-center {align-items: center;}
 .ai-fe {align-items: flex-end}
