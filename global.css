@@ -30,6 +30,10 @@ img, video {
     height: auto;
 }
 
+a {
+    display: block;
+}
+
 /* Colores de fondos */
 .bg-primary {background-color: var(--color-primary);}
 .bg-secondary {background-color: var(--color-secondary);}
@@ -336,6 +340,7 @@ img, video {
 
 .min-h-10 {min-height: 10px;}
 .min-h-15 {min-height: 15px;}
+.min-h-300 {min-height: 300px;}
 .min-h-400 {min-height: 400px;}
 
 .min-vh-100 {min-height: 100vh;}
@@ -411,11 +416,11 @@ img, video {
 .border-danger {border-color: var(--color-danger);}
 .border-info {border-color: var(--color-info);}
 .border-success {border-color: var(--color-success);}
-.border-warning {color: var(--color-warning);}
+.border-warning {border-color: var(--color-warning);}
 .border-white {border-color: var(--color-white);}
-.border-black {color: var(--color-black);}
-.border-grey {color: var(--color-grey);}
-.border-link {color: var(--color-link);}
+.border-black {border-color: var(--color-black);}
+.border-grey {border-color: var(--color-grey);}
+.border-link {border-color: var(--color-link);}
 
 
 .border-radius-25 {border-radius: .25rem;}
@@ -633,6 +638,25 @@ ico-primary{
 
 @media screen and (max-width: 768px) {
     /* md */
+    
+    /* margenes */
+    .md-m-auto {margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto;}
+    .md-m-0-25 {margin-top: .25rem; margin-right: .25rem; margin-bottom: .25rem; margin-left: .25rem;}
+    .md-m-0-5 {margin-top: .5rem; margin-right: .5rem; margin-bottom: .5rem; margin-left: .5rem;}
+    .md-m-0-75 {margin-top: .75rem; margin-right: .75rem; margin-bottom: .75rem; margin-left: .75rem;}
+    .md-m-1 {margin-top: 1rem; margin-right: 1rem; margin-bottom: 1rem; margin-left: 1rem;}
+    .md-m-2 {margin-top: 2rem; margin-right: 2rem; margin-bottom: 2rem; margin-left: 2rem;}
+    .md-m-3 {margin-top: 3rem; margin-right: 3rem; margin-bottom: 3rem; margin-left: 3rem;}
+    .md-m-4 {margin-top: 4rem; margin-right: 4rem; margin-bottom: 4rem; margin-left: 4rem;}
+
+    .md-mx-auto {margin-right: auto; margin-left: auto;}
+    .md-mx-0-5 {margin-right: .5rem; margin-left: .5rem;}
+    .md-mx-1 {margin-right: 1rem; margin-left: 1rem;}
+    .md-mx-2 {margin-right: 2rem; margin-left: 2rem;}
+    .md-mx-3 {margin-right: 3rem; margin-left: 3rem;}
+    .md-mx-4 {margin-right: 4rem; margin-left: 4rem;}
+    /* Fin margenes */
+
     .md-max-w-500 {
         max-width: 500px;
     }
